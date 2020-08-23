@@ -1,0 +1,19 @@
+{
+  "name": "es6plus",
+  "version": "1.0.0",
+  "description": "ecma features",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shherardd/ECMAScript-features.git"
+  },
+  "author": "shd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shherardd/ECMAScript-features/issues"
+  },
+  "homepage": "https://github.com/Shherardd/ECMAScript-features#readme"
+}
