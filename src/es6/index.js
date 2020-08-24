@@ -104,3 +104,24 @@ helloPromise()
 .then(() => console.log('Hello'))
 .then(() => console.log('Hello'))
 .catch(err => console.log(err))
+
+const Hello = require('./module')
+
+Hello()
+
+// Generators
+
+function* helloWorld() {
+    if(true){
+        yield 'Hello, '
+    }
+    if(true) {
+        yield 'World'
+    }
+}
+
+const generatorHello = helloWorld()
+
+console.log(generatorHello.next().value)
+console.log(generatorHello.next().value)
+console.log(generatorHello.next().value)
