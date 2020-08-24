@@ -15,3 +15,4 @@ let exponent = 3
 let result = base ** exponent
 
 console.log(result)
+
